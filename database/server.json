@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alejandro",
+      "surname": "Lajudssssss",
+      "email": "alejandro.lajud65@gmail.com",
+      "password": "ismA1234@",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Ismael",
+      "surname": "Lajud",
+      "email": "ismael.lajud65@gmail.com",
+      "password": "ismA1234@",
+      "role": "cliente"
+    },
+    {
+      "id": "4",
+      "name": "Juan",
+      "surname": "Martinez",
+      "email": "juanmartinez@gmail.com",
+      "password": "ismA1234@",
+      "role": "cliente"
+    },
+    {
+      "id": "5",
+      "name": "María del Mar",
+      "surname": "González",
+      "email": "maria.gonzalez@gmail.com",
+      "password": "ismA1234@",
+      "role": "admin"
+    },
+    {
+      "id": "6",
+      "name": "Pedro Alberto",
+      "surname": "Rodriguez",
+      "email": "pedrorodriguez@gmail.com",
+      "password": "ismA1234@",
+      "role": "cliente"
+    },
+    {
+      "id": "7",
+      "name": "Ana",
+      "surname": "Sánchez",
+      "email": "anasanchez@gmail.com",
+      "password": "ismA1234@",
+      "role": "cliente"
+    },
+    {
+      "id": "8",
+      "name": "Laura",
+      "surname": "Pérez",
+      "email": "lauraperez@gmail.com",
+      "password": "ismA1234@",
+      "role": "admin"
+    }
+  ],
+  "productos": [
+    {
+      "id": "V1",
+      "titulo": "The Witcher 3: Wild Hunt",
+      "requisitos": {
+        "sistema_operativo": "Windows 7/8/10 (64-bit)",
+        "procesador": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940",
+        "memoria_ram": "6 GB",
+        "tarjeta_grafica": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+        "almacenamiento": "35 GB de espacio disponible"
+      },
+      "descripcion": "Embárcate en una aventura épica en un mundo de fantasía lleno de monstruos, magia y decisiones morales. Explora un vasto mundo abierto, completa misiones emocionantes y moldea el destino de Geralt de Rivia en su búsqueda de su hija adoptiva.",
+      "precio": "€ 29,99",
+      "imagenes": [
+        "https://pcgamia.com/wp-content/uploads/2022/12/The-Witcher-3-IP2.jpg.webp",
+        "https://pcgamia.com/wp-content/uploads/2023/01/The-Witcher-3-IP4.jpg.webp",
+        "https://pcgamia.com/wp-content/uploads/2023/01/The-Witcher-i03.jpg.webp"
+      ]
+    },
+    {
+      "id": "V2",
+      "titulo": "Red Dead Redemption 2",
+      "requisitos": {
+        "sistema_operativo": "Windows 7/8/10 (64-bit)",
+        "procesador": "Intel Core i5-2500K / AMD FX-6300",
+        "memoria_ram": "8 GB",
+        "tarjeta_grafica": "NVIDIA GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+        "almacenamiento": "150 GB de espacio disponible"
+      },
+      "descripcion": "Sumérgete en el salvaje oeste en este juego de acción y aventura. Experimenta la vida de un forajido mientras exploras el vasto paisaje, cazas animales, robas trenes y te enfrentas a bandas rivales. Con una historia inmersiva y un mundo detallado, Red Dead Redemption 2 ofrece una experiencia de juego única.",
+      "precio": "€ 49,99",
+      "imagenes": [
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/ef1e767fe0b8d6674ba0cad3ff856367.jpg?im=Resize=1920",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/68d90aba9df8be17a58a3e7bc89238a9.png",
+        "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/179041dd1cc9016fcba223d8e952c427.jpg?im=Resize=1920"
+      ]
+    },
+    {
+      "id": "V3",
+      "titulo": "Cyberpunk 2077",
+      "requisitos": {
+        "sistema_operativo": "Windows 7/8/10 (64-bit)",
+        "procesador": "Intel Core i5-3570K / AMD FX-8310",
+        "memoria_ram": "8 GB",
+        "tarjeta_grafica": "NVIDIA GeForce GTX 780 3GB / AMD Radeon RX 470",
+        "almacenamiento": "70 GB de espacio disponible"
+      },
+      "descripcion": "Adéntrate en Night City, una metrópolis futurista llena de personajes extravagantes, tecnología avanzada y peligros a cada paso. Como V, un mercenario en busca de un implante único que concede la inmortalidad, te verás envuelto en una historia de conspiración, violencia y supervivencia.",
+      "precio": "€ 39,99",
+      "imagenes": [
+        "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/684x385/Cyberpunk2077NG_Love_it_or_burn_it_RGB-en.jpg",
+        "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/1920x1080/CP2077_UE_1920x1080_EN_WINDOWS.jpg",
+        "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/684x385/dcca53eddc247c102bc5feb0c1c01cab88fb844a.jpg"
+      ]
+    },
+    {
+      "id": "V4",
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "requisitos": {
+        "sistema_operativo": "Nintendo Switch",
+        "memoria_ram": "2 GB",
+        "almacenamiento": "13.4 GB de espacio disponible"
+      },
+      "descripcion": "Embárcate en una aventura legendaria en el reino de Hyrule. Conviértete en el héroe del tiempo mientras exploras vastas tierras, resuelves puzles ingeniosos y luchas contra monstruos ancestrales. Descubre la verdadera magia del mundo abierto mientras te sumerges en esta emocionante odisea.",
+      "precio": "€ 59,99",
+      "imagenes": [
+        "https://www.nintendo.com/eu/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal_image1600w.jpg",
+        "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_TheLegendOfZeldaSkywardSwordHD_image380w.jpg",
+        "https://www.nintendo.com/es-es/Juegos/Juegos-de-Nintendo-Switch/The-Legend-of-Zelda-Breath-of-the-Wild-1173609.html"
+      ]
+    },
+    {
+      "id": "V5",
+      "titulo": "FIFA 24",
+      "requisitos": {
+        "sistema_operativo": "Windows 10 (64-bit)",
+        "procesador": "Intel Core i3-6100 / AMD Athlon X4 880K",
+        "memoria_ram": "8 GB",
+        "tarjeta_grafica": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7850",
+        "almacenamiento": "50 GB de espacio disponible"
+      },
+      "descripcion": "Experimenta la emoción del fútbol como nunca antes en FIFA 24. Con mejoras en la jugabilidad, gráficos realistas y una amplia gama de modos de juego, incluido el popular modo Ultimate Team, FIFA 22 te sumerge en la acción de la cancha como nunca antes.",
+      "precio": "€ 49,99",
+      "imagenes": [
+        "https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/common/gameplay/fc24-pre-order-founders.jpg.adapt.768w.jpg",
+        "https://img.asmedia.epimg.net/resizer/v2/X4LODD3JJFD2ZMPSA264D6WXLQ.jpg?auth=6eb2bbc947f61f0b68e806f3253fd8b83c55bbddd7e373e29267871d2394c518&width=960",
+        "https://media.vandal.net/m/2-2024/2/20242219171067_1.jpg"
+      ]
+    },
+    {
+      "id": "V6",
+      "titulo": "Assassin's Creed Valhalla",
+      "requisitos": {
+        "sistema_operativo": "Windows 10 (64-bit)",
+        "procesador": "AMD Ryzen 3 1200 / Intel Core i5-4460",
+        "memoria_ram": "8 GB",
+        "tarjeta_grafica": "AMD Radeon R9 380 / NVIDIA GeForce GTX 960",
+        "almacenamiento": "50 GB de espacio disponible"
+      },
+      "descripcion": "Embárcate en una saga vikinga épica en Assassin's Creed Valhalla. Explora los reinos de Inglaterra, forja alianzas, lidera incursiones y construye tu propio asentamiento mientras te abres paso en un mundo lleno de misterios y conflictos.",
+      "precio": "€ 49,99",
+      "imagenes": [
+        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/32bfubSqARG11RChsbk4In/1b54af2e6ad9fae5fbbfd35bd02e354a/ACV_Meteor_960x540.jpg",
+        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7HMfAnuBJPtzcULd3sLi3i/83549a349711ab3964e52ddd91622f27/ac-full-width_vista_desktop.png",
+        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4rGMnfEXWuwOfDNpMqsMv8/2e6496aec8497df7adf9585da2b001c2/ACV_MR_BG_Village_1.jpg"
+      ]
+    },
+    {
+      "id": "V7",
+      "titulo": "Call of Duty: Warzone",
+      "requisitos": {
+        "sistema_operativo": "Windows 10 (64-bit)",
+        "procesador": "Intel Core i5-2500K / AMD Ryzen R5 1600X",
+        "memoria_ram": "12 GB",
+        "tarjeta_grafica": "NVIDIA GeForce GTX 970 / AMD Radeon RX 580",
+        "almacenamiento": "175 GB de espacio disponible"
+      },
+      "descripcion": "Enfréntate a jugadores de todo el mundo en este juego de batalla real gratuito. Lucha por la supervivencia en un vasto mapa, utiliza tácticas de equipo y estrategias de combate para ser el último en pie. Con actualizaciones regulares y eventos emocionantes, Warzone ofrece una experiencia de juego intensa y dinámica.",
+      "precio": "Gratuito",
+      "imagenes": [
+        "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp",
+        "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone2/mw3/home/season-3/WZ_S3_Battle-Pass.webp",
+        "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/warzone/overview/stronghold-black-sites.webp"
+      ]
+    },
+    {
+      "id": "V8",
+      "titulo": "Minecraft",
+      "requisitos": {
+        "sistema_operativo": "Windows 7/8/10 (64-bit)",
+        "procesador": "Intel Core i3-3210 3.2 GHz / AMD A8-7600 APU 3.1 GHz",
+        "memoria_ram": "4 GB",
+        "tarjeta_grafica": "Intel HD Graphics 4000 / AMD Radeon R5",
+        "almacenamiento": "4 GB de espacio disponible"
+      },
+      "descripcion": "Explora un mundo infinito de bloques y construye todo lo que puedas imaginar en Minecraft. Reúne recursos, crea herramientas y construye estructuras impresionantes mientras te enfrentas a peligrosas criaturas y exploras paisajes únicos. Con modos de juego variados y una comunidad activa, Minecraft ofrece infinitas posibilidades de diversión.",
+      "precio": "€ 23,99",
+      "imagenes": [
+        "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/02/guia-todos-trucos-consejos-minecraft.jpg?tf=3840x",
+        "/https://www.minecraft.net/content/dam/games/minecraft/screenshots/Mangrove_House.png",
+        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/Ancient_City_2.png"
+      ]
+    },
+    {
+      "id": "V9",
+      "titulo": "Among Us",
+      "requisitos": {
+        "sistema_operativo": "Windows 7 SP1+",
+        "procesador": "SSE2 instruction set support",
+        "memoria_ram": "1 GB",
+        "almacenamiento": "250 MB de espacio disponible"
+      },
+      "descripcion": "Únete a una tripulación espacial y descubre al impostor en Among Us. Con juego de deducción social, engaño y astucia, Among Us ofrece una experiencia multijugador única que te mantendrá en vilo hasta el final. ¿Podrás descubrir quién está saboteando la nave?",
+      "precio": "€ 3,99",
+      "imagenes": [
+        "https://gmedia.playstation.com/is/image/SIEPDC/among-us-screenshot-01-en-11jun21?$1600px$",
+        "https://gmedia.playstation.com/is/image/SIEPDC/among-us-screenshot-13-en-11jun21?$1600px$",
+        "https://gmedia.playstation.com/is/image/SIEPDC/among-us-screenshot-02-en-11jun21?$1600px$"
+      ]
+    },
+    {
+      "id": "V10",
+      "titulo": "Grand Theft Auto V",
+      "requisitos": {
+        "sistema_operativo": "Windows 7/8/10 (64-bit)",
+        "procesador": "Intel Core 2 Quad CPU Q6600 @ 2.40GHz / AMD Phenom 9850 Quad-Core Processor @ 2.5GHz",
+        "memoria_ram": "4 GB",
+        "tarjeta_grafica": "NVIDIA 9800 GT 1GB / AMD HD 4870 1GB",
+        "almacenamiento": "72 GB de espacio disponible"
+      },
+      "descripcion": "Adéntrate en el bullicioso mundo de Los Santos y vive la vida del crimen en Grand Theft Auto V. Con una historia envolvente, personajes memorables y un vasto mundo abierto lleno de posibilidades, GTA V te sumerge en una experiencia de juego inolvidable.",
+      "precio": "€ 29,99",
+      "imagenes": [
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/97535/612b5bf5dfc3e387abc9ab0c5376622d64270184.png",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/a19a/c4aaed728a0ede830dca12d8d17ae95262b9c4fa.png",
+        "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/3841/e0d23d54841b028131aa12a4fb02744d3787b8c9.png"
+      ]
+    },
+    {
+      "id": "V11",
+      "titulo": "The Elder Scrolls V: Skyrim",
+      "requisitos": {
+        "sistema_operativo": "Windows 7/8/10 (64-bit)",
+        "procesador": "Intel Core i5-750 / AMD Phenom II X4-945",
+        "memoria_ram": "8 GB",
+        "tarjeta_grafica": "NVIDIA GTX 470 1GB / AMD HD 7870 2GB",
+        "almacenamiento": "12 GB de espacio disponible"
+      },
+      "descripcion": "Sumérgete en el vasto mundo de Skyrim, lleno de dragones, magia y aventuras épicas. Explora montañas nevadas, cuevas oscuras y ciudades bulliciosas mientras forjas tu propio camino y tomas decisiones que afectarán el destino de toda la región.",
+      "precio": "€ 39,99",
+      "imagenes": [
+        "https://images.ctfassets.net/rporu91m20dc/3HhDymmBRdj6sCovWqpHx5/73757f9cf5042a0ed47b31a017810ef8/2327_Skyrim10th_TrailerScreens__2__dungeon.png?q=70&&&fm=webp",
+        "https://images.ctfassets.net/rporu91m20dc/y5NZVhtSxloABuB4Z55ev/e615c91f42e63defc7339ef4b81e9999/2327_Skyrim10th_TrailerScreens__1__landscape.png?q=70&&&fm=webp",
+        "https://images.ctfassets.net/rporu91m20dc/2Afq8vtBK5ZKJopw9UYGna/4b485608ef786c2a0ede47815e38b547/2327_Skyrim10th_TrailerScreens__25__vampire_shot.png?q=70&&&fm=webp"
+      ]
+    },
+    {
+      "id": "V12",
+      "titulo": "Horizon Zero Dawn",
+      "requisitos": {
+        "sistema_operativo": "Windows 10 (64-bit)",
+        "procesador": "Intel Core i5-2500K / AMD FX 6300",
+        "memoria_ram": "8 GB",
+        "tarjeta_grafica": "NVIDIA GeForce GTX 780 3GB / AMD Radeon R9 290 4GB",
+        "almacenamiento": "100 GB de espacio disponible"
+      },
+      "descripcion": "Explora un mundo postapocalíptico lleno de misterios y peligros en Horizon Zero Dawn. Controla a Aloy, una cazadora ágil y experta, mientras te enfrentas a máquinas mortales, descubres antiguas ruinas y desentrañas los secretos de un mundo perdido.",
+      "precio": "€ 49,99",
+      "imagenes": [
+        "https://gmedia.playstation.com/is/image/SIEPDC/horizon-zero-dawn-screen-04-ps4-us-13jun16?$1600px--t$",
+        "https://gmedia.playstation.com/is/image/SIEPDC/horizon-zero-dawn-screen-03-ps4-us-13jun16?$1600px--t$",
+        "https://gmedia.playstation.com/is/image/SIEPDC/horizon-zero-dawn-screen-08-ps4-us-13jun16?$1600px--t$"
+      ]
+    }
+  ]
+}
