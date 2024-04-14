@@ -9,4 +9,8 @@ h1{
     color: rgb(0, 222, 222);
     text-align: center;
     font-family: 'Playfair Display', serif;
+} 
+
+a{
+ text-decoration: none;
 }

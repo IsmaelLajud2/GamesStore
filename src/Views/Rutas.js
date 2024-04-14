@@ -4,9 +4,11 @@ import ErrorPage from "./ErrorPage";
 import Games from './DetailGames/Games';
 import Home from './Home/Home';
 
-import Login from './Login';
+
 import Register from "./Register";
 import TaskList from './TaskList';
+import Micompra from './Micompra';
+import LoginPage from './LoginPage';
 
 const Routes = [{
 
@@ -35,7 +37,7 @@ const Routes = [{
 },
 {
     path: '/login',
-    Element: Login
+    Element:LoginPage
 },
 {
     path: '/productos/:id',
@@ -44,7 +46,10 @@ const Routes = [{
 {
     path: '/productos',
     Element: Games
-} 
-
+} ,
+{
+    path:'/carrito',
+    Element:Micompra
+}
 ]
 export default Routes

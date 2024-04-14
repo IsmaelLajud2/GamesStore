@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+li {
+    display: flex; /* Hacer que los elementos li se muestren en línea */
+    align-items: center; /* Alinear verticalmente los elementos dentro del li */
+    margin-bottom: 15px; /* Agregar un poco de espacio entre cada elemento li */
+  }
+  
+
+  .icon {
+    margin-right: 20px; 
+    flex-shrink: 0; /* Evitar que el icono se contraiga */
+  }
+  
+
+  .contact-span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-left: 10px;
+  }

@@ -1,6 +1,6 @@
 import  axios  from 'axios'
 import React ,{useState,useRef} from 'react'
-
+import './Login.css'
 import { Button,Col,Container,Form, Row } from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
 const URL_BASE = import.meta.env.VITE_URL_BASE
@@ -40,7 +40,7 @@ const Login =  () => {
                 newError.email="Ingresa un email valido"
             } 
             if (formDataRef.current.password && !passwordcharcater.test(formDataRef.current.password)) {
-                newError.password="La contraseña no cumple los requisitos"
+                newError.password="Contraseña incorrecta"
             } 
             if (!formDataRef.current.password) {
                 newError.password="Debes ingresar una contraseña"
@@ -52,7 +52,7 @@ const Login =  () => {
     
     if (Object.keys(newError).length === 0) {
         const dataLogin =formDataRef.current
-        console.log("Usuario Logeado :",formDataRef.current)
+        console.log("Usuario Logeado :",dataLogin)
         try {
           const {data}= await axios.get(`${URL_BASE}/users/?email=${dataLogin.email}`) 
           console.log(data) 
@@ -73,7 +73,7 @@ const Login =  () => {
         
         localStorage.setItem("user",userJson)    
         navigate("/")
-        return alert("Logeado")
+        return alert("Bienvenido")
         } catch (error) {
             console.log(error)
         }
@@ -84,7 +84,7 @@ const Login =  () => {
   return (
     <Container>
     <Row className='justify-content-center my-5'>
-        <h4>Login</h4>
+        <h2 className='d-flex justify-content-center'>Login</h2>
       <Col sm={10}>
    <Form onSubmit={handleSubmit}>
     <Form.Group className="mb-3" controlId="formBasicEmail">

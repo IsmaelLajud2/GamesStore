@@ -9,10 +9,7 @@ import ErrorPage from './Views/ErrorPage.jsx';
 import Routes from './Views/Rutas'
 
 
-const userLog ={
-  name:"Ismael",
-  role:"Client"
-}
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<RootLayout/>}>

@@ -55,6 +55,14 @@
       "email": "lauraperez@gmail.com",
       "password": "ismA1234@",
       "role": "admin"
+    },
+    {
+      "id": "2e7e",
+      "name": "Alejandro",
+      "surname": "Lajud",
+      "email": "ismael.99@gmail.com",
+      "password": "Ismael12@",
+      "checkpassword": "Ismael12@"
     }
   ],
   "productos": [
@@ -107,8 +115,8 @@
       "descripcion": "Adéntrate en Night City, una metrópolis futurista llena de personajes extravagantes, tecnología avanzada y peligros a cada paso. Como V, un mercenario en busca de un implante único que concede la inmortalidad, te verás envuelto en una historia de conspiración, violencia y supervivencia.",
       "precio": "€ 39,99",
       "imagenes": [
-        "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/684x385/Cyberpunk2077NG_Love_it_or_burn_it_RGB-en.jpg",
         "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/1920x1080/CP2077_UE_1920x1080_EN_WINDOWS.jpg",
+        "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/684x385/Cyberpunk2077NG_Love_it_or_burn_it_RGB-en.jpg",
         "https://static.cdprojektred.com/cms.cdprojektred.com/cp/media/wallpaper/684x385/dcca53eddc247c102bc5feb0c1c01cab88fb844a.jpg"
       ]
     },
@@ -141,9 +149,9 @@
       "descripcion": "Experimenta la emoción del fútbol como nunca antes en FIFA 24. Con mejoras en la jugabilidad, gráficos realistas y una amplia gama de modos de juego, incluido el popular modo Ultimate Team, FIFA 22 te sumerge en la acción de la cancha como nunca antes.",
       "precio": "€ 49,99",
       "imagenes": [
-        "https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/common/gameplay/fc24-pre-order-founders.jpg.adapt.768w.jpg",
+        "https://media.vandal.net/m/2-2024/2/20242219171067_1.jpg",
         "https://img.asmedia.epimg.net/resizer/v2/X4LODD3JJFD2ZMPSA264D6WXLQ.jpg?auth=6eb2bbc947f61f0b68e806f3253fd8b83c55bbddd7e373e29267871d2394c518&width=960",
-        "https://media.vandal.net/m/2-2024/2/20242219171067_1.jpg"
+        "https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/common/gameplay/fc24-pre-order-founders.jpg.adapt.768w.jpg"
       ]
     },
     {
@@ -159,9 +167,9 @@
       "descripcion": "Embárcate en una saga vikinga épica en Assassin's Creed Valhalla. Explora los reinos de Inglaterra, forja alianzas, lidera incursiones y construye tu propio asentamiento mientras te abres paso en un mundo lleno de misterios y conflictos.",
       "precio": "€ 49,99",
       "imagenes": [
-        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/32bfubSqARG11RChsbk4In/1b54af2e6ad9fae5fbbfd35bd02e354a/ACV_Meteor_960x540.jpg",
         "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7HMfAnuBJPtzcULd3sLi3i/83549a349711ab3964e52ddd91622f27/ac-full-width_vista_desktop.png",
-        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4rGMnfEXWuwOfDNpMqsMv8/2e6496aec8497df7adf9585da2b001c2/ACV_MR_BG_Village_1.jpg"
+        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4rGMnfEXWuwOfDNpMqsMv8/2e6496aec8497df7adf9585da2b001c2/ACV_MR_BG_Village_1.jpg",
+        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/32bfubSqARG11RChsbk4In/1b54af2e6ad9fae5fbbfd35bd02e354a/ACV_Meteor_960x540.jpg"
       ]
     },
     {

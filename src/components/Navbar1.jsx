@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container,Nav,Navbar,NavDropdown, } from 'react-bootstrap'
+import { Container,Nav,Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import 'boxicons';
+
 
 const Navbar1 = () => {
   return (
@@ -17,21 +17,25 @@ const Navbar1 = () => {
           <Nav className="me-auto">
          
             <Navbar.Text > 
-            <Link to="/" className='mx-5'>Go to Home</Link>
+            <Link   to="/" className='mx-5'>Go to Home</Link>
             
             </Navbar.Text> 
             <Navbar.Text>
-              <Link to='/register' className='mx-5'>Register</Link>
+              <Link   to='/register' className='mx-5'>Register</Link>
             </Navbar.Text>
             <Navbar.Text>
-              <Link to='/login'className='mx-5'>Login</Link>
+              <Link   to='/login'className='mx-5'>Login</Link>
             </Navbar.Text>
             <Navbar.Text>
-              <Link to='/admin'className='mx-5'>Admin Page</Link>
+              <Link   to='/admin'className='mx-5'>Admin Page</Link>
             </Navbar.Text>
             <Navbar.Text>
-              <Link to='/productos'className='mx-5'>Games</Link>
+              <Link   to='/productos'className='mx-5'>Games</Link>
             </Navbar.Text>
+            <Navbar.Text>
+              <Link  to='/carrito' className='mx-5'>Tu compra 🛍️ <span>0</span></Link>
+            </Navbar.Text>
+           
            
           
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
