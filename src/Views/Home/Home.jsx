@@ -34,11 +34,11 @@ useEffect(() => {
       {games && (
         <>
           <h1>{games.titulo}</h1>
-          <Col sm={20} lg={12}>
+          <Col sm={30} lg={13}>
           <Carousel>
           {games && games.map((game, index) => (
   <Carousel.Item key={index}>
-    <h3 className='d-flex justify-content-center'>{game.titulo}</h3>
+    <h3 className='d-flex justify-content-center '>{game.titulo}</h3>
     {game.imagenes.length > 0 && (
       <img src={game.imagenes[0]} alt={`Imagen`} className="img-fluid" />
     )}
